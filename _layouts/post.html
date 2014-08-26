@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<div class="blog-post">
+	<h2 class="blog-post-title"><a href="{{page.url}}">{{page.title}}</a></h2>
+	<p class="blog-post-meta">{{page.date | date_to_long_string}}</p>
+	{{content}}
+</div><!-- /.blog-post -->
