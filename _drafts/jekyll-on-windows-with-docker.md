@@ -1,5 +1,8 @@
 Fun way to install jekyll on Windows, you need docker. 
 
+Jekyll on Windows hell if you know what i mean.
+http://jekyll-windows.juthilo.com/
+
 First install docker with Boot2Docker. (http://docs.docker.com/installation/windows/)
 
 Folder sharing part in Boot2Docker readme

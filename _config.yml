@@ -1,4 +1,27 @@
-permalink: /:title.html
-highlighter: pygments
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        /:title.html
+
+# Setup
+title:            Aykut Aras
+tagline:          'Software Developer'
+description:      'Little thoughts and fun experiments about software development.'
+url:              http://aykutaras.github.io
+
+author:
+  name:           'Aykut Aras'
+  url:            https://twitter.com/aykutaras
+
+paginate:         5
+
+# Custom vars
+github:
+  repo:           https://github.com/aykutaras
+
+linkedin:         http://tr.linkedin.com/in/aykutaras
+
 gems:
   - jekyll-sitemap
