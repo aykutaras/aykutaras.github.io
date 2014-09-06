@@ -3,6 +3,8 @@ layout: page
 title: About Me
 ---
 
-<p>
-  Hey there! I am a software engineer in Antalya/Turkey. I develop applications with C#, ASP.Net MVC and Web API. I use JavaScript, HTML 5 and CSS 3.0 extensively. I have experience with NoSQL databases like MongoDB and CouchDB.
-</p>
+Hey there! I am a software engineer in Antalya/Turkey. 
+
+I developed softwares for various areas including finance, tourism and education. I like build new things and solve interesting difficulties.
+
+Currently infected with [Server Containers](https://www.docker.com/), [Microservices](http://martinfowler.com/articles/microservices.html) and [Continuous Integration/Development](http://www.jetbrains.com/teamcity/).
