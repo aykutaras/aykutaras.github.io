@@ -14,7 +14,7 @@ First of all when you removed your old CloudFormation stack, everything inside o
 I think there are two possible use cases of this approach. You already using different CloudFormation stacks for Lambda functions and all other AWS resources or your environment is not really getting much traffic or even in test mode. Otherwise please skip this approach completely :)
 
 **Pros**
-* Easiest approach
+* Easy to achieve
 * Clean new stack
 
 **Cons**
