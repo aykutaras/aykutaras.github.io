@@ -1,27 +1,115 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Permalinks
-permalink:        /:title.html
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Aykut Aras
+subtitle: "Freelance Software Development and Consultancy"
+locale: "en-US"
+logo: ""
+name: "Aykut Aras"
+email: contact@aykutaras.net
+description: >- # this means to ignore newlines until "baseurl:"
+  Enterprise grade DevOps Engineer with more than 15 years of experience in software development
+  and system administration. Holds AWS DevOps Engineer, AWS Security Specialist and 3 more AWS certificates.
+  Currently working on Serverless architectures, Containerisation and Kubernetes on AWS. Helping teams to
+  adopt DevOps practices such as CICD, Monitoring, Alerting and Observability.
+twitter_username: aykutaras
+github_username: aykutaras
 
-# Setup
-title:            Aykut Aras
-tagline:          'Software Developer'
-description:      'Little thoughts and fun experiments about software development.'
-url:              http://aykutaras.github.io
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
+repository: aykutaras/aykutaras.github.io
+url: "https://aykutaras.net"
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: "Europe/Amsterdam"
+
+search: false
+atom_feed:
+  hide: true
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 author:
-  name:           'Aykut Aras'
-  url:            https://twitter.com/aykutaras
+  name   : "Aykut Aras"
+  avatar : "https://www.gravatar.com/avatar/7c2e00952d91de9e038cefd2d68c88db?s=200"
+  bio    : "Lead Software Engineer at Philips / AWS Certified DevOps Engineer"
+  location: "Amsterdam, The Netherlands"
+  links:
+    - label: "Scaled Evolution"
+      icon: "fas fa-fw fa-dragon"
+      url: "https://scaledevolution.com"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/aykutaras"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/aykutaras"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/aykutaras"
 
-paginate:         5
+footer:
+  links:
+    - label: "Scaled Evolution"
+      icon: "fas fa-fw fa-dragon"
+      url: "https://scaledevolution.com"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/aykutaras"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/aykutaras"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/aykutaras"
 
-# Custom vars
-github:
-  repo:           https://github.com/aykutaras
-
-linkedin:         http://tr.linkedin.com/in/aykutaras
-
-gems:
-  - jekyll-sitemap
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
