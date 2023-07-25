@@ -1,66 +1,33 @@
 ---
-title: "Innovation Meets Scalability"
-layout: splash
-permalink: /splash-page/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  actions:
-    - label: "Learn More"
-      url: "/terms/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+title: "Looking for A Freelance Software Engineer?"
+layout: single
+classes: wide
+permalink: /
+author_profile: true
 ---
 
-{% include feature_row id="intro" type="center" %}
+Hi I am Aykut. I am an Enterprise grade Software Engineer with more than 15 years of experience in software development, devops, architecture and team leading.
 
-{% include feature_row %}
+I am a huge advocate of serverless technologies and I hold AWS DevOps Engineer and AWS Security Specialist certificates.
 
-{% include feature_row id="feature_row2" type="left" %}
+If you are looking for an experienced freelance software engineer that will lead your enterprise to a new level, let's catch up!
 
-{% include feature_row id="feature_row3" type="right" %}
+[Get In Touch](mailto:contact@aykutaras.net){:target="_blank" .btn .btn--primary}
 
-{% include feature_row id="feature_row4" type="center" %}
+## Development
+
+![Development]({{ site.url }}{{ site.baseurl }}/assets/images/development.png){:height="180px" width="180px" .align-left} With over 15 years of experience as a seasoned software developer, I have honed my expertise in a wide array of technologies, including Spring, Java, Node.js, JavaScript, TypeScript, and AWS Serverless technologies. Throughout my career, I have been deeply immersed in the world of software development, tackling complex challenges and architecting robust solutions. My passion for innovation and continuous learning drives me to stay at the forefront of cutting-edge technologies, ensuring that I deliver high-quality, scalable, and efficient software products. My diverse skill set and proven track record make me an invaluable asset to any development team.
+
+<!-- [See My Resume](mailto:contact@aykutaras.net){:target="_blank" .btn .btn--primary} -->
+
+## DevOps
+
+![DevOps]({{ site.url }}{{ site.baseurl }}/assets/images/devops.png){:height="180px" width="180px" .align-right} As a DevOps engineer, I have established myself as a proficient expert in a range of software technologies, including AWS EKS, Serverless computing, Kubernetes, and Docker. Throughout my career, I have played a pivotal role in bridging the gap between development and operations teams, fostering seamless collaboration and delivering efficient, scalable, and reliable solutions. My deep understanding of cloud-native architectures and containerization empowers me to design and implement robust CI/CD pipelines and automate deployment processes. With a passion for optimizing workflows and enhancing system performance, I am committed to driving continuous improvement and elevating the overall development lifecycle.
+
+<!-- [See My Resume](mailto:contact@aykutaras.net){:target="_blank" .btn .btn--primary} -->
+
+## Architecture and Design
+
+![Architecture]({{ site.url }}{{ site.baseurl }}/assets/images/architecture.png){:height="180px" width="180px" .align-left} As a software architect, I bring a wealth of expertise to the table. My exceptional team communication and leadership abilities enable me to guide and inspire development teams to achieve their best potential. With a keen eye for detail, I excel at software design and architecture, crafting scalable, maintainable, and robust solutions that meet the most complex business requirements. I thrive on turning challenges into opportunities and embrace cutting-edge technologies to drive innovation. My track record of successful projects and my dedication to fostering a collaborative and agile environment make me an ideal candidate for the software architect position.
+
+<!-- [See My Resume](mailto:contact@aykutaras.net){:target="_blank" .btn .btn--primary} -->

@@ -16,7 +16,7 @@
 title: Aykut Aras
 subtitle: "Freelance Software Development and Consultancy"
 locale: "en-US"
-logo: ""
+logo: "/assets/images/logo.png"
 name: "Aykut Aras"
 email: contact@aykutaras.net
 description: >- # this means to ignore newlines until "baseurl:"
@@ -71,7 +71,7 @@ author:
   name   : "Aykut Aras"
   avatar : "https://www.gravatar.com/avatar/7c2e00952d91de9e038cefd2d68c88db?s=200"
   bio    : "Founder at Scaled Evolution / AWS Certified DevOps Engineer / Serverless Advocate"
-  location: "Amsterdam, The Netherlands"
+  location: "Eindhoven, The Netherlands"
   links:
     - label: "Scaled Evolution"
       icon: "fas fa-fw fa-dragon"
@@ -107,7 +107,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: wide
       author_profile: false
       read_time: true
       comments: true
