@@ -32,7 +32,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dark
 repository: aykutaras/aykutaras.github.io
-url: "https://aykutaras.net"
+url: "https://www.aykutaras.net"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
